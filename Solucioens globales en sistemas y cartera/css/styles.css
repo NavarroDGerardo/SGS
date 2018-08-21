@@ -1,0 +1,741 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+#wrapper{
+	width: 100%;
+	height: 100%;
+}
+
+.hambar{
+	display: none;
+}
+
+header{
+	width: 100%;
+	height: 160px;
+}
+
+nav{
+	display: none;
+}
+
+
+#logo{
+	width: 350px;
+	height: 100px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	top: 30px;
+}
+
+#select{
+	width: 50%;
+	height: 40px;
+	/*background-color: #f2f2f2;*/
+	margin: 0 auto;
+}
+
+.mainBar {
+    float: left;
+    list-style: none;
+    margin-left: 16%;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.selected{
+	font-weight: bold;
+	text-decoration: overline underline;
+}
+
+a{
+	text-decoration: none;
+	color: #0c93e8;
+}
+
+.info{
+	width: 100%;
+	height: 400px;
+	background-color: rgb(68, 97, 173);
+}
+
+#imgE{
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	left: 22%;
+	top: 240px;
+	transform: translateX(-50%);
+	/*box-shadow: 0px 0px 100px 10px #1866fe;*/
+}
+
+.expli{
+	padding-left: 42%;
+}
+
+.expliIzquierda{
+	padding-left: 50px;
+	width: 70%;  
+}
+
+h2{
+	color: #8FB4FF;
+	font-size: 40px;
+	padding-top: 70px;
+	padding-bottom: 30px; 
+}
+
+.textoExpli{
+	font-size: 30px;
+	padding-left: 30px;
+	padding-right: 25px;
+	color: #fff;
+}
+
+#Mision{
+	display: none;
+}
+
+#Vision{
+	display: none;
+}
+
+#Valores{
+	display: none;
+}
+
+#bolaSGS{
+	width: 250px;
+	height: 250px;
+	opacity: 0.4;
+	position: absolute;
+	left: 80%;
+	top: 300px;
+}
+
+.expliValor{
+	padding-left: 50px;
+	width: 100%;  
+}
+
+#Valor{
+	color: #8FB4FF;
+	font-size: 250px;
+	padding: 0;
+	float: left;
+	opacity: 0.4;
+	padding-top: 56px;
+}
+
+.liV{
+	color: #fff;
+	font-size: 30px;
+	list-style-type: none;
+	/*float: left;*/
+	padding-top: 20px;
+	padding-left: 70%;
+}
+
+#divicion{
+	width: 100%;
+	height: 30px;
+	background-color: rgba(68, 97, 173, 0.7);
+}
+
+#pDiv{
+	font-size: 30px;
+	color: rgba(254, 254, 254, 0.7);
+	font-weight: bold;
+	text-align: center;
+}
+
+.infoProductos{
+	width: 100%;
+	height: 400px;
+	/*background-color: rgba(68, 97, 173, 1);*/
+}
+
+.productos{
+	width: 25%;
+	height: 100%;
+	float: left;
+	background-color: rgba(68, 97, 173, 1);
+}
+
+.Informacion{
+	width: 50%;
+	height: 100%;
+	float: left;
+	background-color: rgba(68, 97, 173, 1);
+}
+
+.InfoSGS{
+	color: #fff;
+	font-size: 35px;
+	text-align: center;
+	padding-top: 85px;
+}
+
+#crediERP:hover{
+	background-color: rgb(138, 122, 47);
+}
+
+.crediERP{
+	background-color: rgb(138, 122, 47);
+}
+
+#SGSPLD:hover{
+	background-color: rgb(0, 115, 59);
+}
+
+.SGSPLD{
+	background-color: rgb(0, 115, 59);
+}
+
+.imagenProducto{
+	height: 50%;
+	padding: 25%;
+	cursor: pointer;
+}
+
+#SGSPLDID{
+	padding-right: 0;
+}
+
+
+footer{
+	width: 100%;
+	height: 130px;
+	background-color: #fff;
+	background-color: rgba(68, 97, 173, 1);
+}
+
+#MensajeKawai{
+	color: #8FB4FF;
+	opacity: 0.6;
+	font-size: 35px;
+	padding: 0;
+	text-align: center;
+	padding-top: 47px;
+}
+
+.productTittle{
+	font-size: 80px;
+	color: #fff;
+	padding: 30px 0 20px 20px;
+}
+
+.productInfo{
+	color: #fff;
+	font-size: 25px;
+	padding-left: 80px;
+	padding-bottom: 50px;
+}
+
+.productLink{
+	font-size: 20px;
+	text-decoration: underline;
+	padding-left: 5%;
+}
+
+.CrediERPInfo{
+	display: none;
+}
+
+.SGSPLDInfo{
+	display: none;
+}
+
+.CrediERPVM{
+	display: none;
+}
+
+.SGSPLDVM{
+	display: none;
+}
+
+.DivImagenProducto{
+	display: none;
+}
+
+/**********************/
+
+/**********************/
+
+/**********************/
+
+@media screen and (max-width:1630px){
+
+	h2{
+		color: #8FB4FF;
+		font-size: 35px;
+		padding-top: 70px;
+		padding-bottom: 30px; 
+	}
+
+	.textoExpli{
+		font-size: 25px;
+		padding-left: 40px;
+		padding-right: 25px;
+		color: #fff;
+	}
+
+	#bolaSGS{
+		width: 250px;
+		height: 250px;
+		opacity: 0.4;
+		position: absolute;
+		left: 75%;
+		top: 300px;
+	}
+
+	.InfoSGS{
+		color: #fff;
+		font-size: 30px;
+		text-align: center;
+		padding-top: 85px;
+	}
+
+}
+
+@media screen and (max-width:1440px){
+
+	#imgE{
+		width: 18%;
+		height: 25%;
+		position: absolute;
+		left: 22%;
+		top: 240px;
+		transform: translateX(-50%);
+		/*box-shadow: 0px 0px 100px 10px #1866fe;*/
+	}
+
+	.info{
+		width: 100%;
+		height: 300px;
+		background-color: rgb(68, 97, 173);
+	}
+
+	h2{
+		color: #8FB4FF;
+		font-size: 30px;
+		padding-top: 70px;
+		padding-bottom: 30px; 
+	}
+
+	.textoExpli{
+		font-size: 25px;
+		padding-left: 40px;
+		padding-right: 25px;
+		color: #fff;
+	}
+
+	#bolaSGS{
+		width: 200px;
+		height: 200px;
+		opacity: 0.4;
+		position: absolute;
+		left: 75%;
+		top: 250px;
+	}
+
+	.InfoSGS{
+		color: #fff;
+		font-size: 30px;
+		text-align: center;
+		padding-top: 85px;
+	}
+
+	#MensajeKawai{
+		color: #8FB4FF;
+		opacity: 0.6;
+		font-size: 25px;
+		padding: 0;
+		text-align: center;
+		padding-top: 38px;
+	}
+
+	footer{
+		width: 100%;
+		height: 100px;
+		background-color: #fff;
+		background-color: rgba(68, 97, 173, 1);
+	}
+
+	.imagenProducto{
+		height: 40%;
+		width: 50%;
+		padding-top: 30%;
+		padding-right: 25%;
+		padding-left: 25%;
+		cursor: pointer;
+	}
+
+}
+
+@media screen and (max-width:1240px){
+
+	#imgE{
+		width: 20%;
+		height: 25%;
+		position: absolute;
+		left: 22%;
+		top: 240px;
+		transform: translateX(-50%);
+		/*box-shad;ow: 0px 0px 100px 10px #1866fe;*/
+	}
+
+	.info{
+		width: 100%;
+		height: 300px;
+		background-color: rgb(68, 97, 173);
+	}
+
+	h2{
+		color: #8FB4FF;
+		font-size: 28px;
+		padding-top: 70px;
+		padding-bottom: 30px; 
+	}
+
+	.textoExpli{
+		font-size: 23px;
+		padding-left: 40px;
+		padding-right: 25px;
+		color: #fff;
+	}
+
+	#bolaSGS{
+		width: 200px;
+		height: 200px;
+		opacity: 0.4;
+		position: absolute;
+		left: 75%;
+		top: 250px;
+	}
+
+	.InfoSGS{
+		color: #fff;
+		font-size: 25px;
+		text-align: center;
+		padding-top: 80px;
+	}
+
+	#MensajeKawai{
+		color: #8FB4FF;
+		opacity: 0.6;
+		font-size: 25px;
+		padding: 0;
+		text-align: center;
+		padding-top: 25px;
+		padding-right: 30px;
+		padding-left: 30px;
+	}
+
+	footer{
+		width: 100%;
+		height: 100px;
+		background-color: #fff;
+		background-color: rgba(68, 97, 173, 1);
+	}
+
+	.imagenProducto{
+		height: 50%;
+		width: 50%;
+		padding-top: 25%;
+		padding-right: 25%;
+		padding-left: 25%;
+		cursor: pointer;
+	}
+
+	.infoProductos{
+		width: 100%;
+		height: 300px;
+		/*background-color: rgba(68, 97, 173, 1);*/
+	}
+
+	.productTittle{
+		font-size: 50px;
+		color: #fff;
+		padding: 30px 0 20px 20px;
+	}
+
+	.productInfo{
+		color: #fff;
+		font-size: 20px;
+		padding-left: 80px;
+		padding-bottom: 50px;
+	}
+
+	.productLink{
+		font-size: 18px;
+		text-decoration: underline;
+		padding-left: 5%;
+	}
+
+}
+
+
+@media screen and (max-width:1240px){
+
+	.info{
+		height: 225px;
+	}
+
+	#select{
+		width: 100%;
+		height: 50px;
+		/*background-color: #f2f2f2;*/
+		margin: 0 auto;
+	}
+
+	.mainBar {
+	    float: left;
+	    list-style: none;
+	    margin-left: 13%;
+	    font-size: 22px;
+	    margin-top: 10px;
+	}
+
+	#imgE{
+		display: none;
+	}
+
+	#bolaSGS{
+		display: none;
+	}
+
+	.expli{
+		padding: 0;
+	}
+
+	.expliIzquierda{
+		padding: 0;
+		margin: 0;
+		width: 100%;
+		/*height: 100%;*/
+	}
+	#Mision{
+		padding: 0;
+		margin: 0;
+	}
+
+	h2{
+		padding: 0;
+		text-align: center;
+		padding: 3% 4%;
+		font-size: 32px;
+	}
+
+	.textoExpli{
+		padding: 0 5%;
+		text-align: center;
+		font-size: 23px;
+	}
+
+	.Informacion{
+		display: none;
+	}
+
+	.productos{
+		width: 50%;
+	}
+
+	.imagenProducto{
+		width: 50%;
+		height: 240px;
+		padding: 0;
+		padding-top: 32px;
+		padding-left: 25%;
+	}
+
+	#division{
+		float: left;
+	}
+
+}
+
+/***************************/
+/****Versión de movil******/
+/***************************/
+
+@media screen and (max-width:600px){
+
+	header{
+		width: 100%;
+		height: 120px;
+	}
+
+	#imgE{
+		display: none;
+	}
+
+	.mainBar {
+	    display: none;
+	}
+
+	.hambar {
+		display: block;
+		background-color: rgba(68, 97, 173, 0.7);
+	}
+
+	nav{
+		display: none;
+		width: 100%;
+		height: 225px;
+	}
+
+	.ham{
+		display: block;
+		max-height: 40px;
+		margin: 0 auto;
+		cursor: pointer;
+	}
+
+	.SGS-Link{
+		margin: 0 auto;
+		color: #fff;
+		font-size: 25px;
+		cursor: pointer;
+		text-align: center;
+		padding-top: 25px;
+	}
+
+	h2{
+		font-size: 30px;
+		padding: 20px 15px 20px 15px;
+		text-align: center;
+	}
+
+	.expli{
+		padding-left: 0;
+	}
+
+	.textoExpli{
+		font-size: 23px;
+		padding: 0;
+		text-align: center;
+		padding-bottom: 15px;
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+
+	.info{
+		width: 100%;
+		height: 100%;
+		background-color: rgb(68, 97, 173);
+	}
+
+	#bolaSGS{
+		display: none;
+	}
+
+	.InfoSGS{
+		font-size: 23px;
+		padding: 0;
+		padding: 20px 10px;
+	}
+
+	.infoProductos{
+		display: none;
+	}
+
+	.CrediERPVM{
+		display: block;
+		width: 100%;
+		height: 100%;
+
+	}
+
+	.SGSPLDVM{
+		display: block;
+		width: 100%;
+		height: 100%;
+	}
+
+	.infoParagraph{
+		width: 50%;
+		height: 200px;
+		background-color: rgb(68, 97, 173);
+		float: left;
+	}
+
+	.DivImagenProducto{
+		display: block;
+		width: 50%;
+		height: 200px;
+		float: left;
+		background-color: rgb(68, 97, 173);
+	}
+
+	.imagenProducto{
+		width: 60%;
+		height: 70%;
+		padding: 0;
+		margin-right: 20%;
+		margin-left: 20%;
+		margin-top: 17%;
+		margin-bottom: 20%;
+	}
+
+	footer{
+		height: 100%;
+		float: left;
+	}
+
+	#MensajeKawai{
+		font-size: 20px;
+		padding: 0;
+		padding: 10px 20px;
+	}
+
+	#divicion{
+		float: left;
+	}
+
+	.productTittle{
+		display: block;
+		font-size: 180%;
+		padding: 0;
+		padding: 10px 0 0 15px;
+	}
+
+	.productInfo{
+		display: block;
+		font-size: 125%;
+		padding: 2% 5% 2% 15%;
+	}
+
+	.productLink{
+		display: block;
+		padding: 0;
+		text-align: center;
+	}
+
+	.pld{
+		box-shadow: 0px 0px 10px 10px rgb(0, 115, 59);
+	}
+
+	.credi{
+		box-shadow: 0px 0px 10px 10px rgb(138, 122, 47);
+	}
+}
